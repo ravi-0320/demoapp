@@ -27,7 +27,11 @@ class _testState extends State<test> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Container(),
+      body: Container(
+        height: 100,
+        width: 200,
+        child: Text("hello"),
+      ),
     );
   }
 }

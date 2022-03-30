@@ -12,7 +12,7 @@ class _nextpageState extends State<nextpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text("Next page"),),
       body: Center(
         child: Text("Title ${widget.index}"),
       ),
